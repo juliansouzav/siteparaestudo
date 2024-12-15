@@ -176,7 +176,7 @@ a {
 
     .apresentacao__imagem {
         width: 80%;
-        object-fit: cover;
+        object-fit: scale-down;
     }
 
     .apresentacao__conteudo {
