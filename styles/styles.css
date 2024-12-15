@@ -142,6 +142,7 @@ a {
     padding: 20px;
 }
 
+
 @media (max-width: 1200px) {
     
     .cabecalho {
@@ -158,19 +159,27 @@ a {
         gap: 60px;
     }
 
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
 }
 
 @media (max-width: 480px) {
 
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 0% 5% 12% 5%;
+        padding-bottom: 15%;
         gap: 40px;
     }
 
     .apresentacao__imagem {
-        width: 50%;
         height: auto;
+        object-fit: cover;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
     }
     
 }
