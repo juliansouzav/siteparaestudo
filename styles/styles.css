@@ -170,12 +170,12 @@ a {
     .apresentacao {
         flex-direction: column-reverse;
         padding-bottom: 15%;
+        padding-top: 5%;
         gap: 40px;
     }
 
     .apresentacao__imagem {
         width: 80%;
-        height: auto;
         object-fit: cover;
     }
 
