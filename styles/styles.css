@@ -154,12 +154,23 @@ a {
     
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 5%;
+        padding: 0% 5% 7% 5%;
+        gap: 60px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 0% 5% 12% 5%;
         gap: 40px;
     }
 
-    .apresentacao__conteudo {
-        width: auto;
+    .apresentacao__imagem {
+        width: 50%;
+        height: auto;
     }
     
 }
