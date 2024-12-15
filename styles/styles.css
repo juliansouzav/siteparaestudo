@@ -38,16 +38,6 @@ body {
     text-decoration: none;
 }
 
-h1 {
-    color: var(--cor-secundaria);
-    font-weight: bold;
-    font-size: x-large;
-}
-
-p {
-    color: var(--cor-secundaria);
-}
-
 a {
     color: var(--cor-primaria);
 }
@@ -68,6 +58,7 @@ a {
 }
 
 .apresentacao__conteudo__titulo {
+    color: var(--cor-secundaria);
     font-size: 3.75rem;
     font-family: var(--fonte-primaria);
     font-weight: 800;
@@ -79,6 +70,12 @@ a {
     font-size: 2.187rem;
     font-family: var(--fonte-primaria);
     font-weight: 800;
+}
+
+.apresentacao__conteudo__titulo__completo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .apresentacao__conteudo__subtitulo {
